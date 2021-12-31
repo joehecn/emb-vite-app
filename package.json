@@ -1,7 +1,7 @@
 {
   "name": "emb-vite-app",
   "productName": "emb-vite-app",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "EMB Electron application",
   "main": "dist/main/index.js",
   "scripts": {
