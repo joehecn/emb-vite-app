@@ -24,7 +24,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "my_ts_app"
+            "name": "emb-vite-app"
           }
         },
         {
@@ -40,6 +40,19 @@
         {
           "name": "@electron-forge/maker-rpm",
           "config": {}
+        }
+      ],
+      "publishers": [
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "joehecn",
+              "name": "emb-vite-app"
+            },
+            "prerelease": false,
+            "draft": false
+          }
         }
       ]
     }
